@@ -44,6 +44,7 @@ const styles = StyleSheet.create({
   box1conte: {
     backgroundColor: '',
     margin: 2,
+    alignContent:'center'
   },
   box1: {
     backgroundColor: 'aqua',
@@ -86,6 +87,7 @@ const styles = StyleSheet.create({
   box5conte: {
     flexDirection: 'row',
     justifyContent: 'space-around',
+    padding: 10,
     flex:2,
   },
   box5: {
