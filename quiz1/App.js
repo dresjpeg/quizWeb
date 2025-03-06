@@ -47,14 +47,16 @@ const styles = StyleSheet.create({
     alignContent:'center'
   },
   box1: {
-    backgroundColor: 'aqua',
+    borderBlockColor: 'black',
+    borderWidth: 2,
+    borderRadius:5, 
     height: 150,
     width: 335,
     margin: 5,
     alignContent: 'space-between',
   },
   box2conte: {
-    justifyContent: 'space-around',
+    justifyContent: 'space-between',
     flexDirection: 'row',
     alignItems: 'center',
     padding: 10,
@@ -62,7 +64,9 @@ const styles = StyleSheet.create({
   box2: {
       height: 150,
       width: 100, 
-      backgroundColor: 'blue',
+      borderBlockColor: 'black',
+      borderWidth: 2,
+      borderRadius:5, 
   },
   box3conte: {
     flexDirection: 'row',
@@ -71,29 +75,35 @@ const styles = StyleSheet.create({
   box3: {
       height: 55,
       width: 330, 
-      backgroundColor: 'green',
+      borderBlockColor: 'black',
+      borderWidth: 2,
+      borderRadius:5, 
   },
   box4conte: {
     flexDirection: 'row',
-    justifyContent: 'space-around',
+    justifyContent: 'space-between',
     padding: 10,
     flex:2,
   },
   box4: {
       height: 100,
       width: 100, 
-      backgroundColor: 'darkblue',
+      borderBlockColor: 'black',
+      borderWidth: 2,
+      borderRadius:5, 
   },
   box5conte: {
     flexDirection: 'row',
-    justifyContent: 'space-around',
+    justifyContent: 'space-between',
     padding: 10,
     flex:2,
   },
   box5: {
       height: 100,
       width: 100, 
-      backgroundColor: 'darkblue',
+      borderBlockColor: 'black',
+      borderWidth: 2,
+      borderRadius:5, 
   },
     
 });
